@@ -9,7 +9,7 @@ class CommentsController < ApplicationController
       @comments = @prototype.comments
       render "prototypes/show"
     end
-  end       
+  end
 
   private
 
